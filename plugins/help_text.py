@@ -45,7 +45,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    
+                    message_text(
                        text= "Source code ⚡", msg= private
                     ),
                     InlineKeyboardButton("bots chats 👨🏻‍💻", url="https://t.me/Shubots"),
